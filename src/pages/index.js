@@ -118,7 +118,7 @@ export default function Home() {
             return (
               <div
                 key={product.id}
-                className="col-span-3 bg-white rounded-md shadow-md p-3"
+                className="col-span-12 md:col-span-6 lg:col-span-3 bg-white rounded-md shadow-md p-3"
               >
                 <h3 className="font-bold mb-2">{product.name}</h3>
                 <p className="mb-2">${product.price}</p>
